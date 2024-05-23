@@ -1,10 +1,13 @@
-import './App.css';
-import header from './components/header';
+import "./App.css";
+import Footer from "./components/footer";
+import Header from "./components/header";
+import "./styles.css";
 
 function App() {
   return (
-    <div className="bg-[#111114] h-screen">
-      <header/>
+    <div className="h-screen bg-[#121215]">
+      <Header />
+      <Footer />
     </div>
   );
 }
