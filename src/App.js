@@ -1,12 +1,12 @@
 import "./App.css";
 import Footer from "./components/footer";
-import Header from "./components/header";
+import Navbar from "./components/navbar";
 import "./styles.css";
 
 function App() {
   return (
     <div className="h-screen bg-[#121215]">
-      <Header />
+      <Navbar />
       <Footer />
     </div>
   );
