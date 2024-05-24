@@ -1,11 +1,12 @@
 import React from "react";
 import Navbar from "./navbar";
+import LogosCarousel from "./logos-carousel ";
 
 function HeroSection() {
   return (
     <div className="h-screen bg-gradient-img">
        <Navbar />
-      <div className="flex justify-center mt-12">
+      <div className="flex justify-center mt-12 lg:mt-24">
         <div className="max-w-2xl">
           <div className="flex items-center">
             <img
@@ -31,6 +32,7 @@ function HeroSection() {
             <p className="text-slate-400">Building what I love at <span className="bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text"><a href="https://www.innoworks.tech/">@innoworks</a></span> software solutions pvt ltd.</p>
         </div>
       </div>
+      <LogosCarousel/>
     </div>
   );
 }

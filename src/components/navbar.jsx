@@ -29,8 +29,8 @@ function Navbar() {
 
   return (
     <div className="flex justify-center">
-      <div className="w-full lg:w-2/5 max-w-6xl pt-6 px-4 lg:px-0">
-        <div className="flex justify-between items-center bg-slate-900 bg-opacity-50 p-2 px-4 rounded-lg backdrop-blur-md">
+      <div className="w-full lg:w-2/5 max-w-6xl pt-6 px-4 lg:px-0 lg:relative">
+        <div className="flex justify-between items-center bg-slate-900 bg-opacity-50 p-2 px-4 rounded-lg backdrop-blur-md lg:fixed">
           <div className="flex items-center">
             <div className="mr-4">
               <img
@@ -104,7 +104,7 @@ function Navbar() {
                 </svg>
               </button>
               <div
-                className={`absolute top-full left-0 mt-4 w-44 divide-y bg-slate-900 bg-opacity-50 backdrop-blur-sm divide-gray-100 rounded-lg shadow-lg dark:divide-gray-600 ${
+                className={`absolute top-full left-0 mt-4 w-44 divide-y bg-slate-900 backdrop-blur-md divide-gray-100 rounded-lg shadow-lg dark:divide-gray-600 ${
                   dropdownOpen ? 'block' : 'hidden'
                 }`}
               >
@@ -163,7 +163,7 @@ function Navbar() {
           </div>
         </div>
         {mobileMenuOpen && (
-          <div className="lg:hidden mt-2 bg-slate-900 bg-opacity-50 p-4 rounded-lg backdrop-blur-sm">
+          <div className="lg:hidden mt-2 bg-slate-900 p-4 rounded-lg backdrop-blur-md">
             <ul className="space-y-4 text-white">
               <li>
                 <a href="#timeline" className="block text-lg bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">
