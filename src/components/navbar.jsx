@@ -28,9 +28,9 @@ function Navbar() {
   }, []);
 
   return (
-    <div className="flex justify-center h-screen bg-gradient-img">
+    <div className="flex justify-center">
       <div className="w-full lg:w-2/5 max-w-6xl pt-6 px-4 lg:px-0">
-        <div className="flex justify-between items-center bg-slate-900 bg-opacity-50 p-2 px-4 rounded-lg backdrop-blur-sm">
+        <div className="flex justify-between items-center bg-slate-900 bg-opacity-50 p-2 px-4 rounded-lg backdrop-blur-md">
           <div className="flex items-center">
             <div className="mr-4">
               <img
