@@ -56,7 +56,7 @@ export default function Contact() {
             className="text-xs tracking-[0.3em] uppercase mb-3"
             style={{ color: "var(--accent)" }}
           >
-            06 — Contact
+            07 — Contact
           </p>
           <h2
             className="text-3xl md:text-4xl font-light"

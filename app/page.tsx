@@ -4,6 +4,7 @@ import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
+import Demo from "@/components/Demo";
 import Services from "@/components/Services";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -30,6 +31,9 @@ export default function Home() {
 
         <div className="section-divider max-w-6xl mx-auto" />
         <Projects />
+
+        <div className="section-divider max-w-6xl mx-auto" />
+        <Demo />
 
         <div className="section-divider max-w-6xl mx-auto" />
         <Services />

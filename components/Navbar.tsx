@@ -75,18 +75,6 @@ export default function Navbar() {
           ))}
         </ul>
 
-        {/* CTA */}
-        <a
-          href="/resume.pdf"
-          download
-          className="hidden md:inline-flex items-center gap-2 btn-ghost text-xs tracking-widest uppercase px-4 py-2 rounded-sm"
-        >
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21H19.44a2 2 0 0 0 1.94-1.515L22 17"/>
-          </svg>
-          Resume
-        </a>
-
         {/* Mobile hamburger */}
         <button
           className="md:hidden flex flex-col gap-[5px] p-1"

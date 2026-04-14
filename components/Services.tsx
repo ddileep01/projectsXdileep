@@ -69,7 +69,7 @@ export default function Services() {
             className="text-xs tracking-[0.3em] uppercase mb-3"
             style={{ color: "var(--accent)" }}
           >
-            05 — Services
+            06 — Services
           </p>
           <h2
             className="text-3xl md:text-4xl font-light"
